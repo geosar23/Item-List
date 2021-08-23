@@ -40,6 +40,9 @@ li.appendChild(btn)
 
 //Add new li item to the itemlist
 itemList.appendChild(li);
+
+//Clear input
+document.getElementById('itemId').value=''
 }
 
 function removeItem(e){
