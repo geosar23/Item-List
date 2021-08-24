@@ -74,3 +74,12 @@ function filterItems(e){
     }
   });
 }
+
+//Second way to remove Btns But doesnt Work to new Items , need to find why 
+//var btns=document.getElementsByClassName('btn btn-danger btn-sm float-right delete');
+//console.log(btns)
+//for(let i=0;i<btns.length;i++){
+  //btns[i].addEventListener('click',function removeParentEvent(){
+    //this.parentNode.remove();
+  //})
+//}
